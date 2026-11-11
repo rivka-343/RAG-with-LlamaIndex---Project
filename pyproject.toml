@@ -1,0 +1,18 @@
+[project]
+name = "my-librory"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13.2"
+dependencies = [
+    "google-generativeai",
+    "pandas",
+    "openpyxl",
+    "llama-index",
+    "llama-index-llms-gemini",
+    "llama-index-embeddings-gemini",
+    "llama-index-vector-stores-chromadb",
+    "chromadb",
+    "python-dotenv",
+    "certifi",
+]
